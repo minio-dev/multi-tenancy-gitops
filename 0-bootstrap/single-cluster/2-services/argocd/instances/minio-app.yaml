@@ -15,7 +15,7 @@ spec:
   project: services
   source:
     path: instances/minio-io
-    repoURL: 'https://github.com/IBM-Cap3/multi-tenancy-gitops-services.git'
+    repoURL: 'https://github.com/minio-dev/multi-tenancy-gitops-services.git'
     targetRevision: master
   syncPolicy:
     automated:
