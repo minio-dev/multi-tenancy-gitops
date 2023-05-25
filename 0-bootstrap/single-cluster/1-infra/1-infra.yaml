@@ -1,4 +1,3 @@
----
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
@@ -8,6 +7,8 @@ metadata:
 spec:
   sourceRepos: [] # Populated by kustomize patches in 1-infra/kustomization.yaml
   destinations:
+  - namespace: minio-dev
+    server: https://kubernetes.default.svc
   - namespace: ci
     server: https://kubernetes.default.svc
   - namespace: dev

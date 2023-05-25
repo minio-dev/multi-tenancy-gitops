@@ -49,6 +49,8 @@ resources:
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
+- argocd/namespace-minio.yaml
+
 patches:
 - target:
     group: argoproj.io
