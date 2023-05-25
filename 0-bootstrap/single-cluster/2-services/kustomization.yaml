@@ -147,7 +147,7 @@ resources:
 #- argocd/instances/baas-instance.yaml
 
 # Minio-io
-#- argocd/instances/minio-app.yaml
+- argocd/instances/minio-app.yaml
 
 patches:
 - target:
